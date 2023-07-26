@@ -6,7 +6,7 @@ function y = modInv(a,b)
         l = l + 1;
     endwhile
     if v(l) != 1
-        printf("Cannot perform a modular inverse: gcd = %d\n",v(l));
+        printf("Cannot perform a modular inverse: gcd = %d\n",v(l-1));
         y = nan;
     else
         for i = (l-2):-1:2;
