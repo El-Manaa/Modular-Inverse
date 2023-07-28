@@ -1,5 +1,5 @@
 function y = modInv(a,b)
-    v = [a b];
+    v = [b a];
     l = 2;
     while v(l) != 0
         v = [v mod(v(l-1),v(l))];
