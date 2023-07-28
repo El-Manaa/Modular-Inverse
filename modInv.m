@@ -12,6 +12,6 @@ function y = modInv(a,b)
         for i = (l-2):-1:2;
             v(i) = (1 - v(i+1)*v(i-1)) / v(i);
         endfor
-        y = mod(v(2),a);
+        y = mod(v(2),b);
     endif
 endfunction
