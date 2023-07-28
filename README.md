@@ -1,2 +1,2 @@
 # Modular-Inverse
-A function written in Octave used to perform modular inverse.
+Two functions written in Octave and Python respectively, used to perform modular multiplicative inverse.
