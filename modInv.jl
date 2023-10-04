@@ -12,6 +12,6 @@ function mod_inv(a,b)
         for i in (l-2):-1:2
             v[i] = (1 - v[i-1]*v[i+1])/v[i];
         end
-        y = v[2] % b;
+        return v[2] % b;
     end
 end
